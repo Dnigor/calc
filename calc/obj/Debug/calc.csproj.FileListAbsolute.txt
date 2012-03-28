@@ -1,0 +1,51 @@
+E:\softserve\calc\calc\bin\Debug\calc.exe
+E:\softserve\calc\calc\bin\Debug\calc.pdb
+E:\softserve\calc\calc\obj\Debug\ResolveAssemblyReference.cache
+E:\softserve\calc\calc\obj\Debug\calc.exe
+E:\softserve\calc\calc\obj\Debug\calc.pdb
+E:\softserve\calc\calc\obj\Debug\calc.Form1.resources
+E:\softserve\calc\calc\bin\Debug\nunit.framework.dll
+E:\softserve\calc\calc\bin\Debug\nunit.framework.xml
+E:\softserve\calc\calc\bin\Debug\NCover.Framework.dll
+E:\softserve\calc\calc\bin\Debug\Mindscape.LightSpeed.dll
+E:\softserve\calc\calc\bin\Debug\Mindscape.LightSpeed.Linq.dll
+E:\softserve\calc\calc\bin\Debug\NCover.Interfaces.Core.dll
+E:\softserve\calc\calc\bin\Debug\NCover.Interfaces.dll
+E:\softserve\calc\calc\bin\Debug\System.Data.SQLite.dll
+E:\softserve\calc\calc\bin\Debug\NCover.Framework.XmlSerializers.dll
+E:\softserve\calc - копия\calc\obj\Debug\calc.exe
+E:\softserve\calc - копия\calc\obj\Debug\calc.pdb
+E:\softserve\calc - копия\calc\bin\Debug\calc.exe
+E:\softserve\calc - копия\calc\bin\Debug\calc.pdb
+E:\softserve\calc - копия\calc\bin\Debug\NCover.Framework.dll
+E:\softserve\calc - копия\calc\bin\Debug\nunit.framework.dll
+E:\softserve\calc - копия\calc\bin\Debug\NCover.Interfaces.dll
+E:\softserve\calc - копия\calc\bin\Debug\Mindscape.LightSpeed.dll
+E:\softserve\calc - копия\calc\bin\Debug\NCover.Interfaces.Core.dll
+E:\softserve\calc - копия\calc\bin\Debug\System.Data.SQLite.dll
+E:\softserve\calc - копия\calc\bin\Debug\Mindscape.LightSpeed.Linq.dll
+E:\softserve\calc - копия\calc\bin\Debug\nunit.framework.xml
+E:\softserve\calc - копия\calc\bin\Debug\NCover.Framework.XmlSerializers.dll
+E:\softserve\calc - копия\calc\obj\Debug\ResolveAssemblyReference.cache
+E:\softserve\calc - копия\calc\obj\Debug\calc.Form1.resources
+E:\softserve\calc - копия\calc\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\softserve\calc - копия\calc\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\softserve\calc2\calc\obj\Debug\calc.exe
+E:\softserve\calc2\calc\obj\Debug\calc.pdb
+E:\softserve\calc2\calc\bin\Debug\calc.exe
+E:\softserve\calc2\calc\bin\Debug\calc.pdb
+E:\softserve\calc2\calc\bin\Debug\NCover.Framework.dll
+E:\softserve\calc2\calc\bin\Debug\nunit.framework.dll
+E:\softserve\calc2\calc\bin\Debug\NCover.Interfaces.dll
+E:\softserve\calc2\calc\bin\Debug\Mindscape.LightSpeed.dll
+E:\softserve\calc2\calc\bin\Debug\NCover.Interfaces.Core.dll
+E:\softserve\calc2\calc\bin\Debug\System.Data.SQLite.dll
+E:\softserve\calc2\calc\bin\Debug\Mindscape.LightSpeed.Linq.dll
+E:\softserve\calc2\calc\bin\Debug\nunit.framework.xml
+E:\softserve\calc2\calc\bin\Debug\NCover.Framework.XmlSerializers.dll
+E:\softserve\calc2\calc\obj\Debug\ResolveAssemblyReference.cache
+E:\softserve\calc2\calc\obj\Debug\calc.Form1.resources
+E:\softserve\calc2\calc\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\softserve\calc2\calc\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\softserve\calc\calc\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\softserve\calc\calc\obj\Debug\GenerateResource-ResGen.write.1.tlog

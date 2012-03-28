@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "calc", "calc\calc.csproj", "{27BC4C06-7504-4FBF-80C7-9EAB4EB77E0E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27BC4C06-7504-4FBF-80C7-9EAB4EB77E0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27BC4C06-7504-4FBF-80C7-9EAB4EB77E0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27BC4C06-7504-4FBF-80C7-9EAB4EB77E0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27BC4C06-7504-4FBF-80C7-9EAB4EB77E0E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

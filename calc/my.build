@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<project name="calc" default="run">
+	<property name="basename" value="calc" />
+	<property name="debug" value="true" />
+
+
+	<target name="clean">
+		<delete>
+			<fileset>
+				<include name="bin/${basename}-??.exe" />
+				<include name="bin/${basename}-??.pdb" />
+			</fileset>
+		</delete>
+	</target>
+
+	<target name="compile-calc">
+		
+		<csc target="exe" output="bin/${basename}-cs.exe">
+			<sources>
+				
+				<include name="src/program.cs" />
+				<include name="src/controller.cs" />
+				<include name="src/form1.cs" />
+				<include name="src/form1.designer.cs" />
+			</sources>
+		</csc>
+	</target>
+
+
+
+	<target name="compile-tests" depends="compile-calc"> 
+		<mkdir dir="utest"/>
+		<csc target="library" output="utest/unittests.dll">
+		<sources>
+			<include name="src/CTest.cs"/>
+				<include name="src/program.cs" />
+				<include name="src/controller.cs" />
+				<include name="src/form1.cs" />
+				<include name="src/form1.designer.cs" />
+		</sources>
+			<references>
+
+				<include name="bin/${basename}-??.exe" />
+				<include name="bin/${basename}-??.pdb" />
+
+			
+				<include name="lib/nunit.framework.dll" />
+			</references>
+		</csc>
+	</target>
+
+
+
+
+<loadtasks assembly="C:\Program Files\NCover\Build Task Plugins\NCover.NAntTasks.dll" />
+
+<target name="coverage">
+  <ncover program="C:\Program Files\NCover\NCover.Console.exe"
+      testRunnerExe="c:\Program Files\NUnit 2.5.10\bin\net-2.0\nunit-console.exe"
+      testRunnerArgs="utest\unittests.dll"
+      coverageFile="Coverage.xml" />
+</target>
+
+
+
+
+<target name="build" depends="compile-tests">
+		<nunit2>
+			<formatter type="Plain" />
+			<test>
+				<assemblies basedir="Tests">
+					<include name="unittests.dll" />
+				</assemblies>
+				<references basedir="bin">
+					<include name="bin/${basename}-??.exe" />
+				</references>
+			</test>
+		</nunit2>
+	</target>
+
+
+
+	<target name="run" depends="build">
+		<mkdir dir="out"/>
+		<exec program="bin/${basename}-cs.exe" basedir="." />		
+		<exec program="C:\Program Files\Microsoft FxCop 1.35\FxCopCmd.exe" commandline="/f:bin/${basename}-??.exe /o:out/fxcop.xml" failonerror="false" />
+		<exec program="C:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\Metrics.exe" commandline= "/file:bin/${basename}-??.exe /out:out/metrics.xml"/> 
+	</target>
+
+
+
+
+
+
+
+
+
+
+
+
+</project>
