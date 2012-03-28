@@ -41,9 +41,7 @@
 			<references>
 
 				<include name="bin/${basename}-??.exe" />
-				<include name="bin/${basename}-??.pdb" />
-
-			
+				<include name="bin/${basename}-??.pdb" />			
 				<include name="lib/nunit.framework.dll" />
 			</references>
 		</csc>
@@ -68,11 +66,12 @@
 		<nunit2>
 			<formatter type="Plain" />
 			<test>
-				<assemblies basedir="Tests">
+				<assemblies basedir="utest">
 					<include name="unittests.dll" />
 				</assemblies>
-				<references basedir="bin">
+				<references>
 					<include name="bin/${basename}-??.exe" />
+					<include name="lib/nunit.framework.dll" />
 				</references>
 			</test>
 		</nunit2>

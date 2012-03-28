@@ -40,20 +40,22 @@ namespace calc
         {
             Assert.AreEqual(6, calculate(12, 2, '/'), "Expected Success.");
         }
-        /*
+        
         [Test]
         [ExpectedException(typeof(DivideByZeroException))]
         public void test12div0()
         {
-            Assert.Catch(calculate(12, 0, '/'), "divide by zero", null);//
+            Assert.Catch(delegate() { calculate(12, 0, '/'); }, "divide by zero", null);
                                   
         }
+        
         [Test]
         [ExpectedException(typeof(FormatException))]
         public void WrongFormatTest()
         {
-              calculate(6.0, 7, '*');   
-        }*/
+             
+            Assert.Catch(delegate() { calculate('a', 'b', '/'); }, "wrong format", null); 
+        }
               
     }
 }
