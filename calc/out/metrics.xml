@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="10.0">
+  <Targets>
+    <Target Name="E:\softserve\calc\calc\bin\calc-cs.exe">
+      <Modules>
+        <Module Name="calc-cs.exe" AssemblyVersion="0.0.0.0">
+          <Metrics>
+            <Metric Name="MaintainabilityIndex" Value="75" />
+            <Metric Name="CyclomaticComplexity" Value="33" />
+            <Metric Name="ClassCoupling" Value="27" />
+            <Metric Name="DepthOfInheritance" Value="7" />
+            <Metric Name="LinesOfCode" Value="141" />
+          </Metrics>
+          <Namespaces>
+            <Namespace Name="calc">
+              <Metrics>
+                <Metric Name="MaintainabilityIndex" Value="75" />
+                <Metric Name="CyclomaticComplexity" Value="33" />
+                <Metric Name="ClassCoupling" Value="27" />
+                <Metric Name="DepthOfInheritance" Value="7" />
+                <Metric Name="LinesOfCode" Value="141" />
+              </Metrics>
+              <Types>
+                <Type Name="ccontroller">
+                  <Metrics>
+                    <Metric Name="MaintainabilityIndex" Value="61" />
+                    <Metric Name="CyclomaticComplexity" Value="15" />
+                    <Metric Name="ClassCoupling" Value="4" />
+                    <Metric Name="DepthOfInheritance" Value="1" />
+                    <Metric Name="LinesOfCode" Value="30" />
+                  </Metrics>
+                  <Members>
+                    <Member Name="choose(string) : string">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="48" />
+                        <Metric Name="CyclomaticComplexity" Value="12" />
+                        <Metric Name="ClassCoupling" Value="4" />
+                        <Metric Name="LinesOfCode" Value="26" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Get() : int">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="77" />
+                        <Metric Name="CyclomaticComplexity" Value="2" />
+                        <Metric Name="ClassCoupling" Value="2" />
+                        <Metric Name="LinesOfCode" Value="3" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ccontroller()">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="100" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                  </Members>
+                </Type>
+                <Type Name="Form1">
+                  <Metrics>
+                    <Metric Name="MaintainabilityIndex" Value="49" />
+                    <Metric Name="CyclomaticComplexity" Value="9" />
+                    <Metric Name="ClassCoupling" Value="19" />
+                    <Metric Name="DepthOfInheritance" Value="7" />
+                    <Metric Name="LinesOfCode" Value="101" />
+                  </Metrics>
+                  <Members>
+                    <Member Name="Form1()">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="66" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="6" />
+                        <Metric Name="LinesOfCode" Value="7" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="button_Click(object, EventArgs) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="73" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="3" />
+                        <Metric Name="LinesOfCode" Value="4" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Dispose(bool) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="76" />
+                        <Metric Name="CyclomaticComplexity" Value="3" />
+                        <Metric Name="ClassCoupling" Value="3" />
+                        <Metric Name="LinesOfCode" Value="4" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="InitializeComponent() : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="34" />
+                        <Metric Name="CyclomaticComplexity" Value="4" />
+                        <Metric Name="ClassCoupling" Value="15" />
+                        <Metric Name="LinesOfCode" Value="86" />
+                      </Metrics>
+                    </Member>
+                  </Members>
+                </Type>
+                <Type Name="myexception">
+                  <Metrics>
+                    <Metric Name="MaintainabilityIndex" Value="100" />
+                    <Metric Name="CyclomaticComplexity" Value="1" />
+                    <Metric Name="ClassCoupling" Value="1" />
+                    <Metric Name="DepthOfInheritance" Value="2" />
+                    <Metric Name="LinesOfCode" Value="1" />
+                  </Metrics>
+                  <Members>
+                    <Member Name="myexception()">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="100" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                  </Members>
+                </Type>
+                <Type Name="ccalc">
+                  <Metrics>
+                    <Metric Name="MaintainabilityIndex" Value="74" />
+                    <Metric Name="CyclomaticComplexity" Value="7" />
+                    <Metric Name="ClassCoupling" Value="0" />
+                    <Metric Name="DepthOfInheritance" Value="1" />
+                    <Metric Name="LinesOfCode" Value="8" />
+                  </Metrics>
+                  <Members>
+                    <Member Name="calculate(int, int, char) : int">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="66" />
+                        <Metric Name="CyclomaticComplexity" Value="6" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="7" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ccalc()">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="100" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                  </Members>
+                </Type>
+                <Type Name="Program">
+                  <Metrics>
+                    <Metric Name="MaintainabilityIndex" Value="92" />
+                    <Metric Name="CyclomaticComplexity" Value="1" />
+                    <Metric Name="ClassCoupling" Value="3" />
+                    <Metric Name="DepthOfInheritance" Value="1" />
+                    <Metric Name="LinesOfCode" Value="1" />
+                  </Metrics>
+                  <Members>
+                    <Member Name="Main() : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="92" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="3" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                  </Members>
+                </Type>
+              </Types>
+            </Namespace>
+          </Namespaces>
+        </Module>
+      </Modules>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

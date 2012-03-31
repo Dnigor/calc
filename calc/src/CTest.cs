@@ -48,14 +48,14 @@ namespace calc
             Assert.Catch(delegate() { calculate(12, 0, '/'); }, "divide by zero", null);
                                   
         }
-        
+        /*
         [Test]
         [ExpectedException(typeof(FormatException))]
         public void WrongFormatTest()
         {
              
             Assert.Catch(delegate() { calculate('a', 'b', '/'); }, "wrong format", null); 
-        }
+        }*/
               
     }
 }
