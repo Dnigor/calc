@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CodeMetricsReport Version="10.0">
   <Targets>
-    <Target Name="E:\softserve\calc\calc\bin\calc-cs.exe">
+    <Target Name="c:\calc\calc\bin\calc-cs.exe">
       <Modules>
         <Module Name="calc-cs.exe" AssemblyVersion="0.0.0.0">
           <Metrics>
