@@ -49,3 +49,5 @@ E:\softserve\calc2\calc\obj\Debug\GenerateResource-ResGen.read.1.tlog
 E:\softserve\calc2\calc\obj\Debug\GenerateResource-ResGen.write.1.tlog
 E:\softserve\calc\calc\obj\Debug\GenerateResource-ResGen.read.1.tlog
 E:\softserve\calc\calc\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\calc\calc\obj\Debug\calc.exe
+E:\calc\calc\obj\Debug\calc.pdb
