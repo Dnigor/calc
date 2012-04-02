@@ -55,8 +55,8 @@
 <target name="coverage">
   <ncover program="C:\Program Files\NCover\NCover.Console.exe"
       testRunnerExe="c:\Program Files\NUnit 2.5.10\bin\net-2.0\nunit-console.exe"
-      testRunnerArgs="utest/unittests.dll"
-      coverageFile="out/Coverage.xml" />
+      testRunnerArgs="utest\unittests.dll"
+      coverageFile="Coverage.xml" />
 </target>
 
 
@@ -81,7 +81,7 @@
 
 	<target name="run" depends="build">
 		<mkdir dir="out"/>
-		
+		<exec program="bin/${basename}-cs.exe" basedir="." />		
 		<exec program="C:\Program Files\Microsoft FxCop 1.35\FxCopCmd.exe" commandline="/f:bin/${basename}-??.exe /o:out/fxcop.xml" failonerror="false" />
 		<exec program="C:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\Metrics.exe" commandline= "/file:bin/${basename}-??.exe /out:out/metrics.xml"/> 
 	</target>

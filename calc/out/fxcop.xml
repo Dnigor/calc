@@ -4,7 +4,7 @@
  <Namespaces>
   <Namespace Name="calc">
    <Messages>
-    <Message TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2012-03-31 18:38:34Z" FixCategory="Breaking">
+    <Message TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2012-04-01 22:14:54Z" FixCategory="Breaking">
      <Issue Name="Namespace" Certainty="95" Level="Error">Correct the casing of namespace name 'calc'.</Issue>
     </Message>
    </Messages>
@@ -15,19 +15,19 @@
    <Modules>
     <Module Name="calc-cs.exe">
      <Messages>
-      <Message TypeName="AssembliesShouldDeclareMinimumSecurity" Category="Microsoft.Usage" CheckId="CA2209" Status="Active" Created="2012-03-31 18:38:34Z" FixCategory="Breaking">
+      <Message TypeName="AssembliesShouldDeclareMinimumSecurity" Category="Microsoft.Usage" CheckId="CA2209" Status="Active" Created="2012-04-01 22:14:54Z" FixCategory="Breaking">
        <Issue Certainty="95" Level="CriticalError">No valid permission requests were found for assembly 'calc-cs'. You should always specify the minimum security permissions using SecurityAction.RequestMinimum.</Issue>
       </Message>
-      <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Status="Active" Created="2012-03-31 18:38:34Z" FixCategory="NonBreaking">
+      <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Status="Active" Created="2012-04-01 22:14:54Z" FixCategory="NonBreaking">
        <Issue Name="NoStrongName" Certainty="95" Level="CriticalError">Sign 'calc-cs' with a strong name key.</Issue>
       </Message>
-      <Message TypeName="MarkAssembliesWithAssemblyVersion" Category="Microsoft.Design" CheckId="CA1016" Status="Active" Created="2012-03-31 18:38:34Z" FixCategory="NonBreaking">
+      <Message TypeName="MarkAssembliesWithAssemblyVersion" Category="Microsoft.Design" CheckId="CA1016" Status="Active" Created="2012-04-01 22:14:54Z" FixCategory="NonBreaking">
        <Issue Certainty="95" Level="Error">Add an AssemblyVersion attribute to 'calc-cs'.</Issue>
       </Message>
-      <Message TypeName="MarkAssembliesWithClsCompliant" Category="Microsoft.Design" CheckId="CA1014" Status="Active" Created="2012-03-31 18:38:34Z" FixCategory="NonBreaking">
+      <Message TypeName="MarkAssembliesWithClsCompliant" Category="Microsoft.Design" CheckId="CA1014" Status="Active" Created="2012-04-01 22:14:54Z" FixCategory="NonBreaking">
        <Issue Name="NoAttr" Certainty="95" Level="Error">'calc-cs' should be marked with CLSCompliantAttribute and its value should be true.</Issue>
       </Message>
-      <Message TypeName="MarkAssembliesWithComVisible" Category="Microsoft.Design" CheckId="CA1017" Status="Active" Created="2012-03-31 18:38:34Z" FixCategory="NonBreaking">
+      <Message TypeName="MarkAssembliesWithComVisible" Category="Microsoft.Design" CheckId="CA1017" Status="Active" Created="2012-04-01 22:14:54Z" FixCategory="NonBreaking">
        <Issue Name="NoAttribute" Certainty="95" Level="CriticalError">Mark 'calc-cs' as ComVisible(false) at the assembly level, then mark all types within the assembly that should be exposed to Com clients as ComVisible(true).</Issue>
       </Message>
      </Messages>
@@ -36,23 +36,23 @@
        <Types>
         <Type Name="ccalc" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2012-03-31 18:38:34Z" FixCategory="Breaking">
+          <Message TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2012-04-01 22:14:54Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="95" Level="Error">Correct the casing of type name 'ccalc'.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="calculate(System.Int32,System.Int32,System.Char):System.Int32" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="Member" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2012-03-31 18:38:34Z" FixCategory="Breaking">
+            <Message Id="Member" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2012-04-01 22:14:54Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="95" Level="Error">Correct the casing of member name 'calculate'.</Issue>
             </Message>
-            <Message Id="0#a" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2012-03-31 18:38:34Z" FixCategory="Breaking">
+            <Message Id="0#a" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2012-04-01 22:14:54Z" FixCategory="Breaking">
              <Issue Name="ParameterOneLetter" Certainty="75" Level="CriticalWarning">In method ccalc.calculate(Int32, Int32, Char):Int32, consider providing a more meaningful name than the one-letter parameter name 'a'.</Issue>
             </Message>
-            <Message Id="1#b" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2012-03-31 18:38:34Z" FixCategory="Breaking">
+            <Message Id="1#b" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2012-04-01 22:14:54Z" FixCategory="Breaking">
              <Issue Name="ParameterOneLetter" Certainty="75" Level="CriticalWarning">In method ccalc.calculate(Int32, Int32, Char):Int32, consider providing a more meaningful name than the one-letter parameter name 'b'.</Issue>
             </Message>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2012-03-31 18:38:34Z" FixCategory="Breaking">
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2012-04-01 22:14:54Z" FixCategory="Breaking">
              <Issue Certainty="95" Level="Warning">The 'this' parameter (or 'Me' in VB) of ccalc.calculate(Int32, Int32, Char):Int32 is never used. Mark the member as static (or Shared in VB) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
@@ -61,64 +61,64 @@
         </Type>
         <Type Name="ccontroller" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2012-03-31 18:38:34Z" FixCategory="Breaking">
+          <Message TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2012-04-01 22:14:54Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="95" Level="Error">Correct the casing of type name 'ccontroller'.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="a" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2012-03-31 18:38:34Z" FixCategory="Breaking">
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2012-04-01 22:14:54Z" FixCategory="Breaking">
              <Issue Certainty="90" Level="Error">Make 'a' private or internal (Friend in VB, public private in C++) and provide a public or protected property to access it.</Issue>
             </Message>
-            <Message Id="a" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2012-03-31 18:38:34Z" FixCategory="Breaking">
+            <Message Id="a" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2012-04-01 22:14:54Z" FixCategory="Breaking">
              <Issue Name="MemberOneLetter" Certainty="75" Level="CriticalWarning">Consider providing a more meaningful name than the one-letter token 'a' in member name 'ccontroller.a'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="b" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2012-03-31 18:38:34Z" FixCategory="Breaking">
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2012-04-01 22:14:54Z" FixCategory="Breaking">
              <Issue Certainty="90" Level="Error">Make 'b' private or internal (Friend in VB, public private in C++) and provide a public or protected property to access it.</Issue>
             </Message>
-            <Message Id="b" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2012-03-31 18:38:34Z" FixCategory="Breaking">
+            <Message Id="b" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2012-04-01 22:14:54Z" FixCategory="Breaking">
              <Issue Name="MemberOneLetter" Certainty="75" Level="CriticalWarning">Consider providing a more meaningful name than the one-letter token 'b' in member name 'ccontroller.b'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="choose(System.String):System.String" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2012-03-31 18:38:34Z" FixCategory="NonBreaking">
+            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2012-04-01 22:14:54Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="CriticalError">Modify 'ccontroller.choose(String):String' to catch a more specific exception than 'System.Object' or rethrow the exception.</Issue>
             </Message>
-            <Message Id="Member" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2012-03-31 18:38:34Z" FixCategory="Breaking">
+            <Message Id="Member" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2012-04-01 22:14:54Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="95" Level="Error">Correct the casing of member name 'choose'.</Issue>
             </Message>
-            <Message Id="System.Convert.ToInt32(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2012-03-31 18:38:34Z" FixCategory="NonBreaking">
+            <Message Id="System.Convert.ToInt32(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2012-04-01 22:14:54Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="Error">ccontroller.choose(String):String makes a call to System.Convert.ToInt32(System.String) that does not explicitly provide an IFormatProvider. This should be replaced with a call to System.Convert.ToInt32(System.String,System.IFormatProvider).</Issue>
             </Message>
-            <Message Id="System.Int32.ToString" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2012-03-31 18:38:34Z" FixCategory="NonBreaking">
+            <Message Id="System.Int32.ToString" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2012-04-01 22:14:54Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="Error">ccontroller.choose(String):String makes a call to System.Int32.ToString that does not explicitly provide an IFormatProvider. This should be replaced with a call to System.Int32.ToString(System.IFormatProvider).</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="Get():System.Int32" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="System.Convert.ToInt32(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2012-03-31 18:38:34Z" FixCategory="NonBreaking">
+            <Message Id="System.Convert.ToInt32(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2012-04-01 22:14:54Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="Error">ccontroller.Get():Int32 makes a call to System.Convert.ToInt32(System.String) that does not explicitly provide an IFormatProvider. This should be replaced with a call to System.Convert.ToInt32(System.String,System.IFormatProvider).</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="result" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2012-03-31 18:38:34Z" FixCategory="Breaking">
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2012-04-01 22:14:54Z" FixCategory="Breaking">
              <Issue Certainty="90" Level="Error">Make 'result' private or internal (Friend in VB, public private in C++) and provide a public or protected property to access it.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="sign" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2012-03-31 18:38:34Z" FixCategory="Breaking">
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2012-04-01 22:14:54Z" FixCategory="Breaking">
              <Issue Certainty="90" Level="Error">Make 'sign' private or internal (Friend in VB, public private in C++) and provide a public or protected property to access it.</Issue>
             </Message>
            </Messages>
@@ -129,27 +129,27 @@
          <Members>
           <Member Name="a" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2012-03-31 18:38:34Z" FixCategory="Breaking">
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2012-04-01 22:14:54Z" FixCategory="Breaking">
              <Issue Certainty="90" Level="Error">Make 'a' private or internal (Friend in VB, public private in C++) and provide a public or protected property to access it.</Issue>
             </Message>
-            <Message Id="a" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2012-03-31 18:38:34Z" FixCategory="Breaking">
+            <Message Id="a" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2012-04-01 22:14:54Z" FixCategory="Breaking">
              <Issue Name="MemberOneLetter" Certainty="75" Level="CriticalWarning">Consider providing a more meaningful name than the one-letter token 'a' in member name 'Form1.a'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="b" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2012-03-31 18:38:34Z" FixCategory="Breaking">
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2012-04-01 22:14:54Z" FixCategory="Breaking">
              <Issue Certainty="90" Level="Error">Make 'b' private or internal (Friend in VB, public private in C++) and provide a public or protected property to access it.</Issue>
             </Message>
-            <Message Id="b" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2012-03-31 18:38:34Z" FixCategory="Breaking">
+            <Message Id="b" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2012-04-01 22:14:54Z" FixCategory="Breaking">
              <Issue Name="MemberOneLetter" Certainty="75" Level="CriticalWarning">Consider providing a more meaningful name than the one-letter token 'b' in member name 'Form1.b'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="InitializeComponent():System.Void" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="DoNotPassLiteralsAsLocalizedParameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2012-03-31 18:38:34Z" FixCategory="NonBreaking">
+            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="DoNotPassLiteralsAsLocalizedParameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2012-04-01 22:14:54Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="Error">Form1.InitializeComponent():Void passes a literal as parameter 1 of a call to Control.set_Text(String):Void. Retrieve the following string argument from a resource table instead: '*'</Issue>
              <Issue Certainty="95" Level="Error">Form1.InitializeComponent():Void passes a literal as parameter 1 of a call to Control.set_Text(String):Void. Retrieve the following string argument from a resource table instead: '+'</Issue>
              <Issue Certainty="95" Level="Error">Form1.InitializeComponent():Void passes a literal as parameter 1 of a call to Control.set_Text(String):Void. Retrieve the following string argument from a resource table instead: '-'</Issue>
@@ -159,7 +159,7 @@
              <Issue Certainty="95" Level="Error">Form1.InitializeComponent():Void passes a literal as parameter 1 of a call to Control.set_Text(String):Void. Retrieve the following string argument from a resource table instead: 'C'</Issue>
              <Issue Certainty="95" Level="Error">Form1.InitializeComponent():Void passes a literal as parameter 1 of a call to Control.set_Text(String):Void. Retrieve the following string argument from a resource table instead: 'Calc'</Issue>
             </Message>
-            <Message Id="System.Int32.ToString" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2012-03-31 18:38:34Z" FixCategory="NonBreaking">
+            <Message Id="System.Int32.ToString" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2012-04-01 22:14:54Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="Error">Form1.InitializeComponent():Void makes a call to System.Int32.ToString that does not explicitly provide an IFormatProvider. This should be replaced with a call to System.Int32.ToString(System.IFormatProvider).</Issue>
              <Issue Certainty="95" Level="Error">Form1.InitializeComponent():Void makes a call to System.Int32.ToString that does not explicitly provide an IFormatProvider. This should be replaced with a call to System.Int32.ToString(System.IFormatProvider).</Issue>
             </Message>
@@ -167,7 +167,7 @@
           </Member>
           <Member Name="sign" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2012-03-31 18:38:34Z" FixCategory="Breaking">
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2012-04-01 22:14:54Z" FixCategory="Breaking">
              <Issue Certainty="90" Level="Error">Make 'sign' private or internal (Friend in VB, public private in C++) and provide a public or protected property to access it.</Issue>
             </Message>
            </Messages>
@@ -176,10 +176,10 @@
         </Type>
         <Type Name="myexception" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
          <Messages>
-          <Message TypeName="AvoidUninstantiatedInternalClasses" Category="Microsoft.Performance" CheckId="CA1812" Status="Active" Created="2012-03-31 18:38:34Z" FixCategory="NonBreaking">
+          <Message TypeName="AvoidUninstantiatedInternalClasses" Category="Microsoft.Performance" CheckId="CA1812" Status="Active" Created="2012-04-01 22:14:54Z" FixCategory="NonBreaking">
            <Issue Certainty="75" Level="Warning">'calc.myexception' is an internal class that is apparently never instantiated. If so, remove the code from the assembly. If this class is intended to contain only static methods, consider adding a private constructor to prevent the compiler from generating a default constructor.</Issue>
           </Message>
-          <Message TypeName="ExceptionsShouldBePublic" Category="Microsoft.Design" CheckId="CA1064" Status="Active" Created="2012-03-31 18:38:34Z" FixCategory="NonBreaking">
+          <Message TypeName="ExceptionsShouldBePublic" Category="Microsoft.Design" CheckId="CA1064" Status="Active" Created="2012-04-01 22:14:54Z" FixCategory="NonBreaking">
            <Issue Certainty="95" Level="Warning">Make exception class calc.myexception public.</Issue>
           </Message>
          </Messages>
